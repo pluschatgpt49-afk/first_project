@@ -1,0 +1,27 @@
+# India Basic Amenities Dashboard - Python Requirements
+# Install using: pip install -r requirements.txt
+
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization Libraries
+plotly>=5.14.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Web Framework
+streamlit>=1.25.0
+
+# Statistical Analysis
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# Data Loading and APIs (optional - for production use)
+requests>=2.28.0
+openpyxl>=3.1.0  # For Excel file support
+xlrd>=2.0.1      # For older Excel formats
+
+# Geospatial (optional - for advanced mapping)
+geopandas>=0.13.0
+folium>=0.14.0
